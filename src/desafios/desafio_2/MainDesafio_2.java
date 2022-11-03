@@ -1,4 +1,4 @@
-package desafio_2;
+package desafios.desafio_2;
 
 import java.util.Scanner;
 
@@ -36,7 +36,7 @@ public class MainDesafio_2 {
                 maior = palavra.charAt(i);
             }
         }
-        System.out.println("Saida "+cont+": Maior letra ="+ maior);
+        System.out.println("Saida "+cont+": Maior letra = "+ maior);
 
     }
     public static String caracteresSpecialMinusculo(String palavra){

@@ -1,6 +1,5 @@
-package desafio_1;
+package desafios.desafio_1;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MainDesafio_1 {

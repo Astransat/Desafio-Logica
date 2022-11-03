@@ -1,4 +1,4 @@
-package desafio_3;
+package desafios.desafio_3;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class MainDEsafio_3 {
     public static void main(String[] args) {
         String text[]=new String[3];
 
-        System.out.println("\nEntre com as frases: \n");
+        System.out.println("\nEntre com os nomes: \n");
 
         System.out.print("Entrada 1: ");
         text[0] =entrada.nextLine();
@@ -32,7 +32,6 @@ public class MainDEsafio_3 {
 
         for (int i = 0; i < arrary.length; i++) {
 
-
             if(i==0) {
                 resultado+=arrary[arrary.length-1].toUpperCase()+", ";
             }
@@ -44,10 +43,5 @@ public class MainDEsafio_3 {
         System.out.println("Saida "+cont+":"+resultado);
 
     }
-    public static String caracteresSpecialMinusculo(String palavra){
-        //Regex para remover caracteres especiais e toLowerCase para deixa em minusculo
 
-        return palavra.toLowerCase().replaceAll("[^a-z0-9]", "");
-
-    }
 }
